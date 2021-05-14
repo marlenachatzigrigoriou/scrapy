@@ -289,7 +289,7 @@ class FilesPipeline(MediaPipeline):
     """Abstract pipeline that implement the file downloading
 
     This pipeline tries to minimize network transfers and file processing,
-    doing stat of the files and determining if file is new, uptodate or
+    doing stat of the files and determining if the file is new, uptodate or
     expired.
 
     ``new`` files are those that pipeline never processed and needs to be
